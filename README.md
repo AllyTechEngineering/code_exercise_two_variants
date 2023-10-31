@@ -28,6 +28,6 @@
   - theme.dart used to control the app theme
   - constant.dart used to store api and other future contants.
   ## Know Issues and areas for improvement:
-  - The package used for images that are null needs to be replaced with another algorithum to catch uncaught exceptions. App works but this needs to be resolved before production.
+  - The package used for images that are null needs to be updated to catch uncaught exceptions. App works but this needs to be resolved before production.
   - Additional error management with AlertDialogs to alert the user to network issues needs to be added.
    - UI styling needs input from TBD persons to select typography and color schemes. Using theme.dart these changes can be applied without refactoring hard coded styling.
