@@ -1,0 +1,37 @@
+flavorizr:
+  ide: "vscode"
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+
+flavors:
+  simpsons_char_viewer:
+    app:
+      name: "Simpsons Character Viewer"
+    android:
+      applicationId: "com.sample.simpsonsviewer"
+      resValues:
+        data_api_one:
+          type: "string"
+          value: "http://api.duckduckgo.com/?q=simpsons+characters&format=json"
+    ios:
+      bundleId: "com.sample.simpsonsviewer"
+      variables:
+        DATA_API_ONE:
+          value: "http://api.duckduckgo.com/?q=simpsons+characters&format=json"
+
+  wire_char_viewer:
+    app:
+      name: "Wire Character Viewer"
+    android:
+      applicationId: "com.sample.wireviewer"
+      resValues:
+        data_api_two:
+          type: "string"
+          value: "http://api.duckduckgo.com/?q=the+wire+characters&format=json"
+    ios:
+      bundleId: "com.sample.wireviewer"
+      variables:
+        DATA_API_TWO:
+          value: "http://api.duckduckgo.com/?q=the+wire+characters&format=json"
