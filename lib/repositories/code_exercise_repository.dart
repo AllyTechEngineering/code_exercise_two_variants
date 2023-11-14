@@ -26,7 +26,7 @@ class CodeExerciseRepository {
       );
       return codeExData;
     } catch (e) {
-      // print('try catch error: $e');
+      print('try catch error: $e');
       rethrow;
     }
   }
